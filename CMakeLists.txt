@@ -3,6 +3,8 @@ project(image_magick_test)
 
 set(CMAKE_CXX_STANDARD 11)
 
+# 99% chance that this is redundant, needs checking just in case;
+# until then, let it be
 set(SOURCES ${CMAKE_CURRENT_SOURCE_DIR}/src/main.cpp
             ${CMAKE_CURRENT_SOURCE_DIR}/src/commands.cpp
             ${CMAKE_CURRENT_SOURCE_DIR}/src/tokenizer.cpp
