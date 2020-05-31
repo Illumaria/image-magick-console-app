@@ -32,5 +32,5 @@ The image 'img.jpg' can be used for testing purposes. Feel free to use your own 
   -  ```store <name> <filename>``` or ```s <name> <filename>``` saves the image with the name \<name\> to a JPG-file with the name \<filename\>.
   -  ```blur <from_name> <to_name> <radius>``` blurs the image \<from_name\> by specifying the \<radius\> value and saves it in memory by the name \<to_name\>. Please note that due to sigma value being hardcoded to value '2.0', \<radius\> value of either '0' or at a minimum double that of the sigma is recommended.
   -  ```resize <from_name> <to_name> <new_width> <new_height>``` changes the dimensions of the image \<from_name\> to width \<new_width\> and height \<new_height\> and saves it in memory by the name \<to_name\>. Please note that aspect ratio is ignored.
-  -  ```help``` or ```h``` prints this help message.
+  -  ```help``` or ```h``` prints the help message.
   -  ```exit```, ```quit``` or ```q``` quits the application.
