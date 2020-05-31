@@ -24,6 +24,7 @@ $ make
 ```
 $ ./image-magick-test
 ```
+The image 'img.jpg' can be used for testing purposes. Feel free to use your own images.
 
 ## Usage
 
