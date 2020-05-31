@@ -6,7 +6,7 @@ This simple C++ command-line application is designed to demonstrate some basic f
 ## Prerequisites
 
 * cmake: 3.16 or higher
-* ImageMagick: 6.9.0 or higher
+* ImageMagick: 6.9.7 or higher
 
 ## Build
 
@@ -28,7 +28,7 @@ The image 'img.jpg' can be used for testing purposes. Feel free to use your own 
 
 ## Usage
 
-  -  ```load <name> <filename>``` or ```ld <name> <filename>``` loads a JPG-file with with the name \<filename\> and saves it in memory by the name \<name\>.
+  -  ```load <name> <filename>``` or ```ld <name> <filename>``` loads a JPG-file with the name \<filename\> and saves it in memory by the name \<name\>.
   -  ```store <name> <filename>``` or ```s <name> <filename>``` saves the image with the name \<name\> to a JPG-file with the name \<filename\>.
   -  ```blur <from_name> <to_name> <radius>``` blurs the image \<from_name\> by specifying the \<radius\> value and saves it in memory by the name \<to_name\>. Please note that due to sigma value being hardcoded to value '2.0', \<radius\> value of either '0' or at a minimum double that of the sigma is recommended.
   -  ```resize <from_name> <to_name> <new_width> <new_height>``` changes the dimensions of the image \<from_name\> to width \<new_width\> and height \<new_height\> and saves it in memory by the name \<to_name\>. Please note that aspect ratio is ignored.
