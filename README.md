@@ -1,4 +1,4 @@
-# image-magick-test
+# image-magick-console-app
 
 ## Overview
 This simple C++ command-line application is designed to demonstrate some basic functionality of Magick++ API from [ImageMagick](https://imagemagick.org/) library.
